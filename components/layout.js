@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-const name = 'Patrick Coffey'
-export const siteTitle = 'Patrick Coffey'
+const name = "Patrick Coffey";
+export const siteTitle = "Patrick Coffey";
 
 export default function Layout({ children, home }) {
   return (
@@ -68,5 +68,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
